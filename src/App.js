@@ -7,6 +7,8 @@ import albumItems from './data/album';
 import socialLinks from './data/socialLinks';
 import './App.css';
 import SignUp from './components/SignUp';
+import contactForm from './components/ContactForm';
+import Card from './components/Card';
 
 export default class Example extends React.Component {
     constructor(props) {
@@ -40,7 +42,10 @@ export default class Example extends React.Component {
 
                         <Route path="/album" render={(props) => <Main {...props} album={this.state.album} />} />
 
-                        <Route path="/" component={SignUp} />
+                        <Route path="/contactForm" component={contactForm} />
+                        <Route path="/signup" component={SignUp} />
+                        <Route path="/card" render={(props) => <Card {...props} album={this.state.album} />} />
+                        
 
 
                     </Switch>
@@ -58,3 +63,6 @@ export default class Example extends React.Component {
     }
 }
 //   <Main album={this.state.album} /> poner en linea 45
+
+
+//<Route path="/card" component={Card} />

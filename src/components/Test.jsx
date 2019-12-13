@@ -13,6 +13,9 @@ export default function Example1() {
 
                 <Log />
             </DropdownMenu>
+
+            <img id="img1" src="https://icon-library.net/images/shopping-cart-icon-vector/shopping-cart-icon-vector-21.jpg" alt="" />
+
         </UncontrolledDropdown>
     );
 }

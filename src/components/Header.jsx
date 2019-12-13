@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../../src/App.css';
 import {
     Col,
     Collapse,
@@ -20,12 +21,9 @@ const Header = ({ collapsed, toggleNavbar, socialLinks }) => {
                             <Col sm="8" md="7" className="py-4">
                                 <h4 className="text-white">About</h4>
                                 <p className="text-muted">
-                                    Add some information about the album below,
-                                    the author, or any other background context.
-                                    Make it a few sentences long so folks can
-                                    pick up some informative tidbits. Then, link
-                                    them off to some social networking sites or
-                                    contact information.
+                                    OVER 2 MILLION SOLD  SINCE 1956.
+    Founded in 1956. We’ve come a long way.From our humble beginnings as one of the nation’s first minority-owned franchises to being recognized as one leading companies. We are connected to you.Join us in our drive.
+    “We strive to Treat customers with complete honesty and respect. Offer outstanding value without complexity. Simplify antique car buying and make it fun, fast and easy. Inspire our employees to learn and grow. Lead by example as a local, civic-minded company.
                                 </p>
                             </Col>
                             <Col sm="4" md={{ offset: 1 }} className="py-4">
@@ -41,8 +39,16 @@ const Header = ({ collapsed, toggleNavbar, socialLinks }) => {
                                                     {link.text}
                                                 </a>
                                             </li>
+
                                         );
+
+
                                     })}
+                                    <Link to="/contactForm">
+                                        <li className="text-white">  Conctact Form
+                                        </li>
+                                    </Link>
+
                                 </ul>
                             </Col>
                         </Row>
@@ -72,6 +78,9 @@ const Header = ({ collapsed, toggleNavbar, socialLinks }) => {
 
 
                         </ul>
+
+
+
 
                     </NavbarBrand>
                     <NavbarToggler onClick={toggleNavbar} className="mr-2" />

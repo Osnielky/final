@@ -16,7 +16,7 @@ const Main = ({ album }) => {
             <Jumbotron className="text-center">
                 <Example />
                 <Container className="cont">
-                    <h1 className="jumbotron-heading">We sell Great Cars!</h1>
+                    <h1 className="jumbotron-heading">Luxuria Classic Auto</h1>
 
                 </Container>
             </Jumbotron>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import {
     Button,
     ButtonGroup,
@@ -19,6 +20,8 @@ const Album = ({ album }) => {
                     {album.map((item, key) => {
                         return (
                             <Col md="4" key={key}>
+                                {console.log(key)}
+                                
                                 <Card className="mb-4 box-shadow">
                                     <CardImg
                                         top
@@ -36,8 +39,12 @@ const Album = ({ album }) => {
                                                     outline
                                                     color="secondary"
                                                     size="sm"
+
                                                 >
-                                                    View
+
+<Link to={{ pathname: '/card', state: { id: item.id} }}>View</Link>
+
+
                                                 </Button>
                                                 <Button
                                                     outline
@@ -48,7 +55,7 @@ const Album = ({ album }) => {
                                                 </Button>
                                             </ButtonGroup>
                                             <small className="text-muted">
-                                                {item.time}
+                                                {item.Year}
                                             </small>
                                         </div>
                                     </CardBody>

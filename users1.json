@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "osnielky",
+      "lastname": "roque",
+      "email": "osnielkisrq@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "1",
+      "name": "joselyn",
+      "lastname": "Perez",
+      "email": "joselyn@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "1",
+      "name": "jesus",
+      "lastname": "Paz",
+      "email": "jesus@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "BxcGPQX"
+    },
+    {
+      "id": "QrDTFfe"
+    },
+    {
+      "id": "z_69HnS"
+    },
+    {
+      "id": "wOvLZZS"
+    },
+    {
+      "id": "bw8KU5Y"
+    },
+    {
+      "id": "zn39DDt"
+    },
+    {
+      "id": "VWrG6ib"
+    },
+    {
+      "id": "jhNkt4t"
+    }
+  ]
+}
